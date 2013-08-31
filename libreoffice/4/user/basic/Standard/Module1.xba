@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE script:module PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "module.dtd">
+<script:module xmlns:script="http://openoffice.org/2000/script" script:name="Module1" script:language="StarBasic">REM  *****  BASIC  *****
+
+Sub HideMenuBar
+layout = Thiscomponent.CurrentController.Frame.LayoutManager
+layout.hideElement(&quot;private:resource/menubar/menubar&quot;)
+End Sub
+
+Sub ShowMenuBar
+layout = Thiscomponent.CurrentController.Frame.LayoutManager
+layout.showElement(&quot;private:resource/menubar/menubar&quot;)
+End Sub
+
+Sub MenuToggle
+Dim sUrl as String : sUrl = &quot;private:resource/menubar/menubar&quot;
+If NOT ThisComponent.CurrentController.Frame.LayoutManager.IsElementVisible( sUrl ) Then
+ThisComponent.CurrentController.Frame.LayoutManager.showElement( sUrl )
+Else
+ThisComponent.CurrentController.Frame.LayoutManager.hideElement( sUrl )
+EndIf
+End Sub
+
+
+Sub Main
+
+End Sub
+</script:module>

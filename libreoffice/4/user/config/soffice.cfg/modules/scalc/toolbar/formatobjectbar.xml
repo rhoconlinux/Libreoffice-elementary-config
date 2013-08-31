@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toolbar:toolbar PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "toolbar.dtd">
+<toolbar:toolbar xmlns:toolbar="http://openoffice.org/2001/toolbar" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <toolbar:toolbaritem xlink:href=".uno:DesignerDialog" toolbar:visible="false"/>
+ <toolbar:toolbaritem xlink:href=".uno:StyleApply" toolbar:visible="false"/>
+ <toolbar:toolbarseparator/>
+ <toolbar:toolbaritem xlink:href=".uno:CharFontName"/>
+ <toolbar:toolbarseparator/>
+ <toolbar:toolbaritem xlink:href=".uno:FontHeight"/>
+ <toolbar:toolbarseparator/>
+ <toolbar:toolbaritem xlink:href=".uno:Bold"/>
+ <toolbar:toolbaritem xlink:href=".uno:Italic"/>
+ <toolbar:toolbaritem xlink:href=".uno:Underline" toolbar:visible="false"/>
+ <toolbar:toolbaritem xlink:href=".uno:UnderlineDouble" toolbar:visible="false"/>
+ <toolbar:toolbarseparator/>
+ <toolbar:toolbaritem xlink:href=".uno:AlignLeft"/>
+ <toolbar:toolbaritem xlink:href=".uno:AlignHorizontalCenter"/>
+ <toolbar:toolbaritem xlink:href=".uno:AlignRight"/>
+ <toolbar:toolbaritem xlink:href=".uno:AlignBlock"/>
+ <toolbar:toolbaritem xlink:href=".uno:ToggleMergeCells"/>
+ <toolbar:toolbarseparator/>
+ <toolbar:toolbaritem xlink:href=".uno:ParaLeftToRight" toolbar:visible="false"/>
+ <toolbar:toolbaritem xlink:href=".uno:ParaRightToLeft" toolbar:visible="false"/>
+ <toolbar:toolbarseparator/>
+ <toolbar:toolbaritem xlink:href=".uno:TextdirectionLeftToRight" toolbar:visible="false"/>
+ <toolbar:toolbaritem xlink:href=".uno:TextdirectionTopToBottom" toolbar:visible="false"/>
+ <toolbar:toolbarseparator/>
+ <toolbar:toolbaritem xlink:href=".uno:AlignTop" toolbar:visible="false"/>
+ <toolbar:toolbaritem xlink:href=".uno:AlignVCenter" toolbar:visible="false"/>
+ <toolbar:toolbaritem xlink:href=".uno:AlignBottom" toolbar:visible="false"/>
+ <toolbar:toolbarseparator/>
+ <toolbar:toolbaritem xlink:href=".uno:NumberFormatCurrency" toolbar:visible="false"/>
+ <toolbar:toolbaritem xlink:href=".uno:NumberFormatPercent" toolbar:visible="false"/>
+ <toolbar:toolbaritem xlink:href=".uno:NumberFormatDate" toolbar:visible="false"/>
+ <toolbar:toolbaritem xlink:href=".uno:NumberFormatScientific" toolbar:visible="false"/>
+ <toolbar:toolbaritem xlink:href=".uno:NumberFormatStandard" toolbar:visible="false"/>
+ <toolbar:toolbaritem xlink:href=".uno:NumberFormatIncDecimals"/>
+ <toolbar:toolbaritem xlink:href=".uno:NumberFormatDecDecimals"/>
+ <toolbar:toolbarseparator/>
+ <toolbar:toolbaritem xlink:href=".uno:DecrementIndent" toolbar:visible="false"/>
+ <toolbar:toolbaritem xlink:href=".uno:IncrementIndent" toolbar:visible="false"/>
+ <toolbar:toolbarseparator/>
+ <toolbar:toolbaritem xlink:href=".uno:SetBorderStyle"/>
+ <toolbar:toolbaritem xlink:href=".uno:BackgroundColor"/>
+ <toolbar:toolbaritem xlink:href=".uno:Color"/>
+ <toolbar:toolbaritem xlink:href=".uno:LineStyle" toolbar:visible="false"/>
+ <toolbar:toolbaritem xlink:href=".uno:FrameLineColor" toolbar:visible="false"/>
+ <toolbar:toolbarseparator/>
+ <toolbar:toolbaritem xlink:href=".uno:InsertRows" toolbar:visible="false"/>
+ <toolbar:toolbaritem xlink:href=".uno:InsertColumns" toolbar:visible="false"/>
+ <toolbar:toolbaritem xlink:href=".uno:DeleteRows" toolbar:visible="false"/>
+ <toolbar:toolbaritem xlink:href=".uno:DeleteColumns" toolbar:visible="false"/>
+ <toolbar:toolbarseparator/>
+ <toolbar:toolbaritem xlink:href=".uno:ToggleSheetGrid" toolbar:visible="false"/>
+</toolbar:toolbar>
